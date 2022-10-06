@@ -1,0 +1,6 @@
+echo "# https-github-essentials" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:dr-dre2/github-essentials.git
+git push -u origin master
